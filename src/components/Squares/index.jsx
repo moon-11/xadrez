@@ -49,7 +49,7 @@ export function Square({ color, piece, onClick }) {
     cursor: cursor,
   };
 
-  const imageToPiece = (piece) => {
+  function imageToPiece(piece) {
     const blackPieces = {
       pawn: black_pawn_png,
       rook: black_rook_png,
@@ -72,7 +72,7 @@ export function Square({ color, piece, onClick }) {
       const [color, type] = piece.split("_");
       return color === "white" ? whitePieces[type] : blackPieces[type];
     }
-  };
+  }
 
   const pieceImage = imageToPiece(piece);
 

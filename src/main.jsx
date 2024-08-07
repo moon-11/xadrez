@@ -1,11 +1,11 @@
 
 
-import App from "./pages/home/home";
+import Home from "./pages/home/home";
 import reportWebVitals from "./utils/reportWebVitals";
 
 import { createRoot } from "react-dom";
 
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(<Home />);
 
 
 reportWebVitals();

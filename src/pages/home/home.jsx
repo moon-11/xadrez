@@ -1,35 +1,30 @@
-import React from "react";
 
 import Board from "../../components/Board/index";
 
-class App extends React.Component {
-  render() {
-    const buttonDiv = (
-      <div className="btn_reset">
-        <a href="/" className="btn">
-          <span className="text">RESET</span>
-          <span className="flip-front">RESET ?</span>
-          <span className="flip-back">RESET !</span>
-        </a>
-      </div>
-    );
+export default function Home() {
+  const buttonDiv = (
+    <div className="btn_reset">
+      <a href="/" className="btn">
+        <span className="text">RESET</span>
+        <span className="flip-front">RESET ?</span>
+        <span className="flip-back">RESET !</span>
+      </a>
+    </div>
+  );
 
-    return (
-      <div>
-        <div className="container">
-          <div className="container_checkMate">
-            <div className="checkMate">
-              <h1>Xeque Mate</h1>
-              {buttonDiv}
-            </div>
+  return (
+    <div>
+      <div className="container">
+        <div className="container_checkMate">
+          <div className="checkMate">
+            <h1>Xeque Mate</h1>
+            {buttonDiv}
           </div>
-          <Board />
-          {buttonDiv}
-
         </div>
+        <Board />
+        {buttonDiv}
       </div>
-    );
-  }
+    </div>
+  );
 }
 
-export default App;
