@@ -33,7 +33,7 @@ export function Square({ color, piece, onClick }) {
         cursor = "pointer";
         break;
       case "newSquare":
-        SquareColor = "rgb(180, 184, 0)";
+        SquareColor = "rgb(60, 44, 119)";
         cursor = "pointer";
         break;
       default:
