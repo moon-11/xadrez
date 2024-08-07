@@ -1,17 +1,17 @@
 /* eslint-disable react/prop-types */
 
-import black_bishop_png from "../../assets/images/pieces/black_bishop.png";
-import black_king_png from "../../assets/images/pieces/black_king.png";
-import black_knight_png from "../../assets/images/pieces/black_knight.png";
-import black_pawn_png from "../../assets/images/pieces/black_pawn.png";
-import black_queen_png from "../../assets/images/pieces/black_queen.png";
-import black_rook_png from "../../assets/images/pieces/black_rook.png";
-import white_bishop_png from "../../assets/images/pieces/white_bishop.png";
-import white_king_png from "../../assets/images/pieces/white_king.png";
-import white_knight_png from "../../assets/images/pieces/white_knight.png";
-import white_pawn_png from "../../assets/images/pieces/white_pawn.png";
-import white_queen_png from "../../assets/images/pieces/white_queen.png";
-import white_rook_png from "../../assets/images/pieces/white_rook.png";
+import black_bishop_png from "../../assets/pieces/black_bishop.png";
+import black_king_png from "../../assets/pieces/black_king.png";
+import black_knight_png from "../../assets/pieces/black_knight.png";
+import black_pawn_png from "../../assets/pieces/black_pawn.png";
+import black_queen_png from "../../assets/pieces/black_queen.png";
+import black_rook_png from "../../assets/pieces/black_rook.png";
+import white_bishop_png from "../../assets/pieces/white_bishop.png";
+import white_king_png from "../../assets/pieces/white_king.png";
+import white_knight_png from "../../assets/pieces/white_knight.png";
+import white_pawn_png from "../../assets/pieces/white_pawn.png";
+import white_queen_png from "../../assets/pieces/white_queen.png";
+import white_rook_png from "../../assets/pieces/white_rook.png";
 
 export function Square({ color, piece, onClick }) {
   let SquareColor = "black";
